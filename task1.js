@@ -18,11 +18,11 @@ for (let i = 0; i < gabunganHasilUjian.length; i++) {
   }else if(nilai>nilaiTertinggi){
     nilaiTertinggi = nilai
   }
+  total += nilai
 
-  total += nilai;
 }
 
-let rataRata = total / gabunganHasilUjian.length;
+let rataRata = total /gabunganHasilUjian.length;
 
 console.log("Nilai Terendah:", nilaiTerendah);
 console.log("Nilai Tertinggi:", nilaiTertinggi);
